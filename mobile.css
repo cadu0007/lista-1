@@ -1,0 +1,17 @@
+header nav,
+header .content,
+main .main
+{
+    flex-wrap: wrap;
+}
+@media(max-width:800px){
+    main{
+        width: 320px;
+    }
+    input{
+        width: 320px;
+    }
+    button{
+        width: 128px;
+    }
+}
